@@ -40,17 +40,18 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: theshine.dev
+  email: theshine.dev@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://github.com/theshine-dev       # change to your github homepage
+
+    # - https://twitter.com/username      # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification:               # fill in to your verification string
+google_site_verification: cB5BCutklWPAoDa6gJ-I4U9bybB3nx2f-98uxLRxUyo  # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -89,7 +90,7 @@ avatar:
 toc: true
 
 comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: utterances      # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
