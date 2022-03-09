@@ -21,12 +21,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: TitleTitle                          # the main title
+title: theshine.dev Blog                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 이것저것 기록하고 싶은 것들   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  theshine.dev의 블로그. 기록하고 싶은 것들을 남깁니다.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://theshine-dev.github.io'
@@ -84,12 +84,14 @@ theme_mode:  # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
 
-comments:
+comments:  
+  # /_layouts/post.html 하단에 스크립트를 삽입했으면, 비활성화
+  # 이 곳을 활성화하면, elder, newer 버튼보다 아래에 위치. 위의 방법은 그 위에 위치 
   active:   # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
